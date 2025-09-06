@@ -1,3 +1,4 @@
+import readline from "readline";
 import * as logger from "./logger.js";
 import * as monitor from "./monitor.js";
 import { startCLI } from "./cli.js";
