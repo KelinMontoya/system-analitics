@@ -1,7 +1,6 @@
-import readline from "readline";
-import * as logger from "./modules/logger.js";
-import * as monitor from "./modules/monitor.js";
-import { startCLI } from "./modules/cli.js";
+import * as logger from "./logger.js";
+import * as monitor from "./monitor.js";
+import { startCLI } from "./cli.js";
 
 const rl = readline.createInterface({
   input: process.stdin,
